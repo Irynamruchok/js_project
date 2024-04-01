@@ -51,7 +51,10 @@ body{
     color: rgba(217, 200, 169, 0.7);
     font-size: 15px;
     padding: 0 10px;
+}
 
+.userInfo p {
+    margin: 0;
 }
 
 .titleBlock{
