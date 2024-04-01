@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #0e0808;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.mainContainer{
+    width: 90vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(124, 84, 74, 0.9);
+    border-radius: 10px;
+    box-shadow:
+            0 0 20px rgba(0, 0, 0, 0.5),
+            0 0 40px rgba(0, 0, 0, 0.3),
+            0 0 80px rgba(0, 0, 0, 0.2);
+}
+
+.userDetailsAndPostContainer{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.userInfo{
+    width: 30vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgba(14, 36, 38, 0.7);
+    border-radius: 15px;
+    color: rgba(217, 200, 169, 0.7);
+    font-size: 15px;
+    padding: 0 10px;
+
+}
+
+.titleBlock{
+    width: 55vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(14, 36, 38, 0.7);
+    border-radius: 15px;
+}
+
+.postLink{
+    width: 10vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(217, 200, 169, 0.8);
+    border-radius: 12px;
+    border: solid 1px rgba(49,34,22,0.3);
+    text-decoration: none;
+    color: #0e0808;
+}
+
+.postLink:hover{
+    transform: scale(0.98);
+}
+
+.postDisplayButton{
+    width: 85vw;
+    height: 12vh;
+    border-radius:30px;
+    border: none;
+    background-color: rgba(217, 200, 169, 0.7);
+    font-size: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.postDisplayButton:hover{
+    transform: scale(0.98);
+}

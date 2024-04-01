@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image:url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    width: 80vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(124, 84, 74, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(129, 107, 107, 0.5);
+}
+.userBlock{
+    width: 30vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(111, 52, 56, 0.7);
+    border-radius: 12px;
+    font-size: 19px;
+    color: #211917;
+}
+.buttonBlock {
+    width: 100px;
+    height: 50px;
+    border-radius: 25% 25% 25% 25% / 50% 50% 50% 50%;
+    background-color:  rgba(111, 52, 56, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+
+}
+.moreInfoButton{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #D9C8A9;
+
+}
+.moreInfoButton.moveRight{
+    transform: translateX(50px)
+}
